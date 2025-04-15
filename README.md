@@ -129,44 +129,6 @@ npm start
 The application should now be running at http://localhost:3000.
 
 
-📁 Folder Structure
-
-bash
-
-Copy
-
-Edit
-
-job-board/
-
-├── job-board-backend/
-
-│   ├── uploads/             # Stores uploaded resumes
-
-│   ├── routes/              # Express route handlers
-
-│   ├── models/              # Mongoose schemas
-
-│   ├── server.js            # Entry point for the backend
-
-│   └── ...                  # Other backend files
-
-
-├── job-board-frontend/
-
-│   ├── src/
-
-│   │   ├── components/      # React components
-
-│   │   ├── pages/           # React pages
-
-│   │   └── App.js           # Main React component
-
-│   └── ...                  # Other frontend files
-
-
-└── README.md                # Project documentation
-
 🐞 Known Issues
 
 Resume Upload Error: Ensure the uploads folder exists in the backend directory to prevent file not found errors.
